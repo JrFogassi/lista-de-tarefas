@@ -73,7 +73,7 @@ useEffect(()=>{
       }
         <div onClick={()=>abrirModal()} className="addTarefa"></div>
         <div className="boxTarefas">
-          <h2>Lista de Tarefas</h2>
+          <h2>Lista de Tarefas do Dia</h2>
           {
             tarefas.map((val)=>{
               if(!val.finalizada){
